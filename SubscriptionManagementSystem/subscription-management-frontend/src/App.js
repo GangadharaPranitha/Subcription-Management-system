@@ -30,6 +30,8 @@ function App() {
               <Route path="/admin/plans" element={<PlansManagement />} />
               <Route path="/admin/discounts" element={<DiscountsManagement />} />
               <Route path="/admin/analytics" element={<AnalyticsDashboard />} />
+              <Route path="/" element={<Welcome />} />
+  
             </Routes>
           </main>
           <Footer />
@@ -40,4 +42,5 @@ function App() {
 }
 
 export default App;
+
 
